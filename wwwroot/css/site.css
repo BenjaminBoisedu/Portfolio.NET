@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 41%;
+}
+
+.tags-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.tags-projects li {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #9e9e9eeb;
+  transition: calc(0.1s * 1.1);
+
+}
+
+.tags-projects li:hover {
+  background-color: #9e9e9eeb;
+  border-radius: 5px;
+  transform: perspective(1px) scale(1.1);
+  transition: calc(0.1s * 1.1);
+}
+
+.tags-projects a {
+  color: #fff;
+  background-color: #9e9e9eeb;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}

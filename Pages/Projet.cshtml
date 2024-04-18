@@ -1,0 +1,69 @@
+@page 
+@model ProjetModel 
+@{
+    ViewData["Title"] = "Projet";
+}
+
+<h2>Projet</h2>
+
+<div class="projet-cont">
+    <div class="search">
+        <input type="text" placeholder="Rechercher un projet" />
+        <button>
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+    <div class="projet">
+        <h3>
+            Ecoal
+        </h3>
+        <p>
+            Ecoal est une entreprise qui a pour but de réduire l'empreinte écologique des entreprises en leur proposant des solutions de recyclage et de réutilisation de leurs déchets.
+        </p>
+        <ul class="tags-projects">
+            <li><a href="#">Laravel</a></li>
+            <li>
+                <a href="#">React</a>
+            </li>
+            <li>
+                <a href="#">UX / UI</a>
+            </li>  
+        </ul>
+        <p>
+            <a href="https://www.ecoal.fr" target="_blank">Site web</a>
+        </p>
+        <div class="projet-img img">
+            <div class="grid-img container-img">
+                <div class="img-item img1">
+                    <img src="~/img/ecoal1.webp" alt="Ecoal" />
+                </div>
+            </div>
+        </div>
+        <section class="projet-img img">
+            <h3>Guide MMI</h3>
+            <p>
+                Guide MMI est un site web qui a pour but d'aider les étudiants en MMI à trouver des informations sur les différentes formations MMI en France.
+            </p>
+            <ul class="tags-projects">
+                <li>
+                    <a href="#">React</a>
+                </li>
+                <li>
+                    <a href="#">UX / UI</a>
+                </li>
+            </ul>
+            <p>
+                <a href="https://guide-mmi-dev.vercel.app/" target="_blank">Site web</a>
+            </p>
+            <div class="projet-img img">
+                <div class="grid-img container-img">
+                    <div class="img-item img1">
+                        <img src="~/img/guide-mmi.png" alt="Guide MMI" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+</div>
+
